@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adapt_framework>
+    <bundle>
+        <label>PHP Unit</label>
+        <name>phpunit</name>
+        <version>6.0.13</version>
+        <version_status>release</version_status>
+        <availability>public</availability>
+        <type>extension</type>
+        <namespace>\phpunit</namespace>
+        <version_status>release</version_status>
+        <availability>public</availability>
+        <description>PHPUnit</description>
+        <copyright>2001-2017, Sebastian Bergmann</copyright>
+        <license>MIT</license>
+        <depends_on>
+            <bundle>
+                <name>adapt</name>
+                <version>2</version>
+            </bundle>
+            <bundle>
+                <name>vendor</name>
+            </bundle>
+        </depends_on>
+        <vendor>
+            <name>Adapt Framework</name>
+            <website>https://www.adaptframework.com</website>
+        </vendor>
+        <authors>
+            <author>
+                <name>Sebastian Bergmann</name>
+            </author>
+        </authors>
+    </bundle>
+</adapt_framework>
