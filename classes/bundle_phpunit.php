@@ -16,8 +16,9 @@ namespace phpunit {
         public function install()
         {
             if (parent::install()) {
-                
+                return true ;
             }
+            return false;
         }
 
         public function boot()
